@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="n">
+            <p id="display"></p>
+            <div id="line4">
+                <button id="parenteses0" class="numbers" onclick="enter('(')">(</button>
+                <button id="parenteses1" class="numbers" onclick="enter(')')">)</button>
+                <button id="back" class="numbers" onclick="back()"><</button>
+                <button id="clear"class="numbers" onclick="clean()">c</button>
+            </div>
+        </div>
+            
+        <div id="line3">
+            <button id="number7" class="numbers" onclick="enter('7')">7</button>
+            <button id="number8" class="numbers" onclick="enter('8')">8</button>
+            <button id="number9" class="numbers" onclick="enter('9')">9</button>
+            <button id="operator3" class="numbers" onclick="enter('*')">x</button> 
+        </div>
+      
+        <div id="line2">
+            <button id="number4" class="numbers" onclick="enter('4')">4</button>
+            <button id="number5" class="numbers" onclick="enter('5')">5</button>
+            <button id="number6" class="numbers" onclick="enter('6')">6</button>
+            <button id="operator2" class="numbers" onclick="enter('/')">/</button> 
+        </div>
+        
+
+        <div id="line1">
+            <button id="number1" class="numbers" onclick="enter('1')">1</button>
+            <button id="number2" class="numbers" onclick="enter('2')">2</button>
+            <button id="number3" class="numbers" onclick="enter('3')">3</button>
+            <button id="operator1" class="numbers" onclick="enter('-')">-</button>
+        </div>
+
+
+        <div id="line0">
+            <button id="number0" class="numbers" onclick="enter('0')">0</button>
+            <button id="dot" class="numbers" onclick="enter('.')">.</button>
+            <button id="equal" class="numbers" onclick="calcular()">=</button>
+            <button id="operator0" class="numbers" onclick="enter('+')">+</button>
+        </div>
+ 
+    </div>
+  
+    <script src="assets/script.js"></script>
+</body>
+</html>
